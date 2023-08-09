@@ -5,7 +5,7 @@ on:
 
 jobs:
   build:
-    runs-on: sample-runner-4
+    runs-on: self-hosted
     steps:
       - name: Checkout
         uses: actions/checkout@v2
